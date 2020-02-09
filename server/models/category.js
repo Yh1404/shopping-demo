@@ -10,5 +10,4 @@ const schema = mongoose.Schema({
     ref: "Category"
   }
 });
-
 module.exports = mongoose.model("Category", schema, "category");
